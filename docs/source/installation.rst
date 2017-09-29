@@ -31,7 +31,7 @@ Install mysql, here is a helpful web `resource <https://www.ntu.edu.sg/home/ehch
 ::
 
     #create user 'username' without password. username should match with the person setting it up.
-    CREATE USER 'username@'localhost' IDENTIFIED BY '';
+    CREATE USER 'username'@'localhost' IDENTIFIED BY '';
     GRANT ALL PRIVILEGES ON * . * TO 'username'@'localhost';
     FLUSH PRIVILEGES;
     #create mysql database
